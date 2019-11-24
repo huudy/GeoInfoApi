@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  geoipapi:
+    ports:
+      - "80"
+networks:
+  default:
+    external:
+      name: nat

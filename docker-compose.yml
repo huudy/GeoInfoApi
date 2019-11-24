@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  geoipapi:
+    image: ${DOCKER_REGISTRY-}geoipapi
+    build:
+      context: .\GeoIpApi
+      dockerfile: Dockerfile
