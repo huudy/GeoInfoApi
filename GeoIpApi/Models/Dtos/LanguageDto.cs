@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace GeoIpApi.Models.Dtos
+﻿namespace GeoIpApi.Models.Dtos
 {
     public class LanguageDto
     {

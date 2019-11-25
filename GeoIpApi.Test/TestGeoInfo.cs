@@ -21,7 +21,7 @@ namespace GeoIpApi.Test
         public async Task GetGeoInfoByIdAsyc()
         {
             var controller = new GeoInfosController();
-            controller.ge
+            //controller.ge
         }
 
         [TestMethod]

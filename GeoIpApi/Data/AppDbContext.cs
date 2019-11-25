@@ -1,5 +1,4 @@
 ﻿using GeoIpApi.Models;
-using System.Configuration;
 using System.Data.Entity;
 namespace GeoIpApi.Data
 {
@@ -13,9 +12,9 @@ namespace GeoIpApi.Data
         {
             return new AppDbContext();
         }
-        
+
         public DbSet<GeoInfo> GeoInfos { get; set; }
-        public DbSet<Location> Locations{ get; set; }
-        public DbSet<Language> Languages{ get; set; }
+        public DbSet<Location> Locations { get; set; }
+        public DbSet<Language> Languages { get; set; }
     }
 }

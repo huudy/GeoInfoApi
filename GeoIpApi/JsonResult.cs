@@ -1,14 +1,11 @@
 ﻿using log4net;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Http;
 
 namespace GeoIpApi
@@ -49,23 +46,23 @@ namespace GeoIpApi
         }
 
         #region ShorthandResults
-        public static JsonResult Unauthorized(string message = null)
-        {
-            return new JsonResult(HttpStatusCode.Unauthorized,null, message, "Not authorized");
-        }
-
         public static JsonResult NotFound(string message = null)
         {
             return new JsonResult(HttpStatusCode.NotFound, message, "The requested resource does not exist");
         }
-        public static JsonResult BadRequest( string message = null)
+        public static JsonResult BadRequest(string message = null)
         {
             return new JsonResult(HttpStatusCode.BadRequest, message);
         }
 
         public static JsonResult Success(object data = null, string message = null)
         {
-            return new JsonResult(HttpStatusCode.OK, data,message);
+            return new JsonResult(HttpStatusCode.OK, data, message);
+        }
+
+        public static JsonResult Error(object data = null, string message = null)
+        {
+            return new JsonResult(HttpStatusCode.InternalServerError, data, message);
         }
         #endregion
     }
