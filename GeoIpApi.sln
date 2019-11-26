@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoIpApi", "GeoIpApi\GeoIpA
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E40B1FF1-42D2-4362-A119-F5368BF01556}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoIpApi.Test", "GeoIpApi.Test\GeoIpApi.Test.csproj", "{A2931A07-8609-4FA6-8E66-E59B6CD5CB5E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{E40B1FF1-42D2-4362-A119-F5368BF01556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E40B1FF1-42D2-4362-A119-F5368BF01556}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E40B1FF1-42D2-4362-A119-F5368BF01556}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A2931A07-8609-4FA6-8E66-E59B6CD5CB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2931A07-8609-4FA6-8E66-E59B6CD5CB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2931A07-8609-4FA6-8E66-E59B6CD5CB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2931A07-8609-4FA6-8E66-E59B6CD5CB5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
