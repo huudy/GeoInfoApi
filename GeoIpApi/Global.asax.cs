@@ -9,6 +9,7 @@ namespace GeoIpApi
     {
         protected void Application_Start()
         {
+            log4net.Config.XmlConfigurator.Configure();
             Mapper.Initialize(cfg => cfg.AddProfile<MappingProfile>());
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
