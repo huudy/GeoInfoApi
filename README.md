@@ -1,7 +1,7 @@
 # REST API GeoInfo
 
 This is a simple rest api allowing to fetch geographical information based on the ip provided and store it in the mssql db.
-
+Application logs will be written to C:/Temp/geoinfoapi.log
 ### ADD SECRETS FILES :<br />
 
 content of the files:
