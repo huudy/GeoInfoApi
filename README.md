@@ -25,10 +25,6 @@ You can get the apiKey from here => https://ipstack.com/ and replace it accordin
 
     Open solution GeoIpApi.sln in Visual Studio 2019 and try to press F5
 
-## Run the tests
-
-    Go to GeoApiIp.Test/TestGeoInfo.cs and run the tests methods
-
 ## Run with docker
 
     Set docker-compose as tartup project and press F5
