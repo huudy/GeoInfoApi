@@ -180,7 +180,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="JsonResult.cs" />
+    <Compile Include="Helpers\JsonResult.cs" />
     <Compile Include="Migrations\201911241754299_first.cs" />
     <Compile Include="Migrations\201911241754299_first.Designer.cs">
       <DependentUpon>201911241754299_first.cs</DependentUpon>

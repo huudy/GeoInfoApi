@@ -8,13 +8,15 @@ namespace GeoIpApi.Data
           base("DbConnectionString")
         {
         }
-        public static AppDbContext Create()
-        {
-            return new AppDbContext();
-        }
 
         public DbSet<GeoInfo> GeoInfos { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Language> Languages { get; set; }
+
+        public void MarkAsModified(GeoInfo geoInfo)
+        {
+            Entry(geoInfo).State = EntityState.Modified;
+        }
+
     }
 }
