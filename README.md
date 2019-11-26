@@ -7,17 +7,17 @@ This is a simple rest api allowing to fetch geographical information based on th
 content of the files:
 
 - **connection.config:**<br />
-	<connectionStrings>  <br />
-		<add name="DbConnectionString" providerName="System.Data.SqlClient"	connectionString="Server={serverName};Database={databaseName};User={user};Password={password}" />  <br />
-	</connectionStrings> <br />
+	`<connectionStrings>`  <br />
+		`<add name="DbConnectionString" providerName="System.Data.SqlClient"	connectionString="Server={serverName};Database={databaseName};User={user};Password={password}" />`  <br />
+	`</connectionStrings>` <br />
 
 - **C:/Secrets/secrets.xml:**<br />
-	<?xml version="1.0" encoding="utf-8"?><br />
-	<root><br />
-	  <secrets ver="1.0" ><br />
-		<secret name="apiKey" value="{yourApiKey}" /><br />
-	  </secrets><br />
-	</root><br />
+	`<?xml version="1.0" encoding="utf-8"?>`<br />
+	`<root>`<br />
+	  `<secrets ver="1.0" >`<br />
+		`<secret name="apiKey" value="{yourApiKey}" />`<br />
+	  `</secrets>`<br />
+	`</root>`<br />
 
 You can get the apiKey from here => https://ipstack.com/ and replace it accordingly as well as connection strings 
 
